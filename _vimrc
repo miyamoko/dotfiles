@@ -4,7 +4,7 @@ set fenc=utf-8
 
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme solarized " .vim/colors下にsolarized.vimが必要
 let g:solarized_termcolors=256
 
 "##### 表示関係 #####"
