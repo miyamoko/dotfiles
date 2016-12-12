@@ -7,6 +7,13 @@ set background=dark
 colorscheme solarized
 let g:solarized_termcolors=256
 
+"##### 表示関係 #####"
+"編集中のファイル名を表示
+set title
+
+"カッコ入力時に対応するカッコを表示
+set showmatch
+
 " 行番号表示
 set number
 
