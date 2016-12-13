@@ -8,6 +8,7 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # lsコマンドをsolarized色にするための設定
 # ~/dircolors-solarizedに、git clone https://github.com/seebi/dircolors-solarized.git してある
+# gls, dircolorsを使うには、> brew install coreutilesをする。
 alias ls='gls --color=auto'
 eval $(gdircolors ~/.dircolors-solarized)
 
