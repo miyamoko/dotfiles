@@ -5,8 +5,6 @@ fi
 export PATH=/Users/miyamoto/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
-# postgresqlの設定
-export PGDATA=/usr/local/var/postgres
 
 # lsコマンドをsolarized色にするための設定
 # ~/dircolors-solarizedに、git clone https://github.com/seebi/dircolors-solarized.git してある
