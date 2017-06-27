@@ -23,3 +23,6 @@ eval $(gdircolors ~/.dircolors-solarized)
 # 　bashを起動するたびに毎回設定する必要がある物を書いておく。
 # ※現状の書き方だと厳密にはちょっと間違ってる？もう少し理解が進んだら整理すること。
 
+# PythonへのPATH設定
+export PATH=/usr/local/bin:$PATH
+
