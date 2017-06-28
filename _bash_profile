@@ -26,3 +26,4 @@ eval $(gdircolors ~/.dircolors-solarized)
 # PythonへのPATH設定
 export PATH=/usr/local/bin:$PATH
 
+
