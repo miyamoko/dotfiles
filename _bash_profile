@@ -5,8 +5,6 @@ fi
 export PATH=/Users/miyamoto/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
-# PostgreSQLの使用データ格納場所の指定
-export PGDATA=/usr/local/var/postgres
 
 # lsコマンドをsolarized色にするための設定
 # ~/dircolors-solarizedに、git clone https://github.com/seebi/dircolors-solarized.git してある
@@ -14,16 +12,5 @@ export PGDATA=/usr/local/var/postgres
 alias ls='gls --color=auto'
 eval $(gdircolors ~/.dircolors-solarized)
 
-# 参考
-# .bashrcと.bash_profileの使い分け
-# .bash_profileはログイン時のみ実行される。
-# 　主にexportする関数など。環境変数はプロセス間で勝手に受け継がれる。
-# .bashrcは、対話モードのbashを起動する時に毎回実行される。
-# 　主に環境変数でない変数の設定、エイリアスの定義、シェル関数の定義、コマンドライン保管の設定など・・
-# 　bashを起動するたびに毎回設定する必要がある物を書いておく。
-# ※現状の書き方だと厳密にはちょっと間違ってる？もう少し理解が進んだら整理すること。
-
-# PythonへのPATH設定
-export PATH=/usr/local/bin:$PATH
 
 
